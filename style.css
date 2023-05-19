@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    /* background-color: rgba(73, 5, 71, 0.814); */
+}
+#but{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+}
+#table1{
+    border-spacing: 20px;
+}
+#uncorrectLtr{
+    font-size: 30px;
+    color: mediumvioletred;
+}
+#final{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+}
+#table2{
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+#scores{
+    color: rgb(49, 87, 171);
+}
+#LetterTable{
+    border-spacing: 10px;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    border: 5px solid #000000;
+}
+h3{
+    font-size: 50px;
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    color: brown;
+}
+h2{
+    font-size: 34px;
+    color: rgb(255, 136, 0);
+}

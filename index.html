@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виселица</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <table align="center" id="table1"> 
+        <tr>
+            <td><h1 id="letter1"> </h1></td>
+            <td><h1 id="letter2"> </h1></td>
+            <td><h1 id="letter3"> </h1></td>
+            <td><h1 id="letter4"> </h1></td>
+            <td><h1 id="letter5"> </h1></td>
+            <td><h1 id="letter6"> </h1></td>
+            <td><h1 id="letter7"> </h1></td>
+            <td><h1 id="letter8"> </h1></td>
+            <td><h1 id="letter9"> </h1></td>
+        </tr>
+    </table>
+    <h1 id="scores">Ваши очки: </h1>
+    <h1 id="uncorrectLtr">Неправильные буквы:</h1>
+    <h1 id="final"></h1>
+    <h3>Выбери букву</h3>
+    <table id="LetterTable">
+        <tr>
+            <td><h2 onclick="letter='а'; guessLetter()">а</h2></td> 
+            <td><h2 onclick="letter='б'; guessLetter()">б</h2></td> 
+            <td><h2 onclick="letter='в'; guessLetter()">в</h2></td> 
+            <td><h2 onclick="letter='г'; guessLetter()">г</h2></td> 
+            <td><h2 onclick="letter='д'; guessLetter()">д</h2></td> 
+            <td><h2 onclick="letter='е'; guessLetter()">е</h2></td> 
+            <td><h2 onclick="letter='ё'; guessLetter()">ё</h2></td> 
+            <td><h2 onclick="letter='ж'; guessLetter()">ж</h2></td>
+        </tr>
+        <tr>
+            <td><h2 onclick="letter='з'; guessLetter()">з</h2></td> 
+            <td><h2 onclick="letter='и'; guessLetter()">и</h2></td>
+            <td><h2 onclick="letter='й'; guessLetter()">й</h2></td> 
+            <td><h2 onclick="letter='к'; guessLetter()">к</h2></td>
+            <td><h2 onclick="letter='л'; guessLetter()">л</h2></td>
+            <td><h2 onclick="letter='м'; guessLetter()">м</h2></td>
+            <td><h2 onclick="letter='н'; guessLetter()">н</h2></td>
+            <td><h2 onclick="letter='о'; guessLetter()">о</h2></td>
+        </tr>
+        <tr>
+            <td><h2 onclick="letter='п'; guessLetter()">п</h2></td>
+            <td><h2 onclick="letter='р'; guessLetter()">р</h2></td> 
+            <td><h2 onclick="letter='с'; guessLetter()">с</h2></td>
+            <td><h2 onclick="letter='т'; guessLetter()">т</h2></td>
+            <td><h2 onclick="letter='у'; guessLetter()">у</h2></td>
+            <td><h2 onclick="letter='ф'; guessLetter()">ф</h2></td>
+            <td><h2 onclick="letter='х'; guessLetter()">х</h2></td>
+            <td><h2 onclick="letter='ц'; guessLetter()">ц</h2></td> 
+        </tr>
+            <td><h2 onclick="letter='ч'; guessLetter()">ч</h2></td>
+            <td><h2 onclick="letter='ш'; guessLetter()">ш</h2></td>
+            <td><h2 onclick="letter='щ'; guessLetter()">щ</h2></td>
+            <td><h2 onclick="letter='ъ'; guessLetter()">ъ</h2></td>
+            <td><h2 onclick="letter='ы'; guessLetter()">ы</h2></td> 
+            <td><h2 onclick="letter='ь'; guessLetter()">ь</h2></td>
+            <td><h2 onclick="letter='э'; guessLetter()">э</h2></td> 
+            <td><h2 onclick="letter='ю'; guessLetter()">ю</h2></td>
+            <td><h2 onclick="letter='я'; guessLetter()">я</h2></td>
+    </table>
+    <table align="center" id="table2">
+        <tr>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" align="center" ></td>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" align="center" id="bodyPart6"></td>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" align="center" ></td>
+        </tr>
+        <tr>
+            <td><img src="img/spacer.gif" height="250" width="100" alt="" id="bodyPart4"></td>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" id="bodyPart1"></td>
+            <td><img src="img/spacer.gif" height="250" width="100" alt="" id="bodyPart5"></td>
+        </tr>
+        <tr>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" id="bodyPart2"></td>
+            <td><img src="img/spacer.gif" height="200" width="100" alt=""></td>
+            <td><img src="img/spacer.gif" height="200" width="100" alt="" id="bodyPart3"></td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body> 
+</html>
